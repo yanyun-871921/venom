@@ -47,7 +47,7 @@ itself to fit the project it lives in.
 
 ```bash
 cd /path/to/your-project
-npx @kirssu/venom-init
+npx @cgyou/venom-init
 ```
 
 This will:
@@ -60,10 +60,10 @@ This will:
 Options:
 
 ```bash
-npx @kirssu/venom-init --dry-run        # plan only, no writes
-npx @kirssu/venom-init --from-git       # fetch from GitHub main instead of bundled copy
-npx @kirssu/venom-init --from-git --ref some-branch
-npx @kirssu/venom-init --no-backup --force   # overwrite without backup (dangerous)
+npx @cgyou/venom-init --dry-run        # plan only, no writes
+npx @cgyou/venom-init --from-git       # fetch from GitHub main instead of bundled copy
+npx @cgyou/venom-init --from-git --ref some-branch
+npx @cgyou/venom-init --no-backup --force   # overwrite without backup (dangerous)
 ```
 
 Then in a Claude Code session inside that project:
